@@ -5,9 +5,14 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop", "eShop\eShop.csproj", "{22A5D404-43BF-4F8D-AAFF-596D83F6E33A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Data", "eShop.Data\eShop.Data.csproj", "{09C1D691-DBB8-42DB-97DF-B9BB1F516929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Data", "eShop.Data\eShop.Data.csproj", "{09C1D691-DBB8-42DB-97DF-B9BB1F516929}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShop.Application", "eShop.Application\eShop.Application.csproj", "{E60171DA-D059-463F-80B3-EAAC78E6CCEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShop.Application", "eShop.Application\eShop.Application.csproj", "{E60171DA-D059-463F-80B3-EAAC78E6CCEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9B154DA-A003-4FAB-B466-924FFD4B0290}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

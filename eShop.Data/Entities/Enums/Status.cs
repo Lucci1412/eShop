@@ -8,5 +8,6 @@ namespace eShop.Data.Entities.Enums
     public enum Status
     {
         InAtive,
+        Active
     }
 }

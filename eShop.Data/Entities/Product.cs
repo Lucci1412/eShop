@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace eShop.Data.Entities
 {
@@ -15,6 +13,9 @@ namespace eShop.Data.Entities
         public int ViewCount { get; set; }
         public DateTime DateCreated { get; set; }
         public string SeoAlias { get; set; }
+        public List<Order> Order { get; set; } 
+        public List<OrderDetail> OrderDetails { get; set; }
+        public List<ProductInCategory> ProductInCategory { get; set; }
 
     }
 }
